@@ -2,11 +2,20 @@
 
 Overview:
 
-This project presents the HKRE (Hybridized KNN and Random Forest with Ensemble Learning) model, an innovative solution for detecting Distributed Denial of Service (DDoS) attacks in cloud environments. By combining the strengths of K-Nearest Neighbors (KNN) and Random Forest algorithms through ensemble learning techniques, HKRE offers enhanced accuracy and speed, ensuring minimal disruption to service availability.
+This project presents the HKRE (Hybridized KNN and Random Forest with Ensemble Learning) model, DDoS attacks pose significant threats to cloud service availability, causing severe disruptions and financial losses. Traditional detection methods often struggle with balancing speed and accuracy, leading to delays in identifying and mitigating attacks.
 
-Features:
+Key Features:
 
-1. Hybrid Model: Combines KNN and Random Forest with ensemble learning to improve DDoS detection accuracy.
-2. High Efficiency: Achieves high detection accuracy with fast execution times.
-3. Scalability: Seamlessly integrates with cloud monitoring services for efficient resource management and scalability.
-4. Adaptability: Fine-tuned model parameters allow for dynamic adaptation to changing network conditions.
+1. Ensemble Learning:
+   Integrates K-Nearest Neighbors (KNN), Random Forest, and AdaBoost algorithms to enhance detection accuracy and speed.
+2. Hybridized Model (HKRE):
+   Combines the strengths of KNN and Random Forest through ensemble learning, achieving an accuracy of 95% with a detection time of 12 milliseconds.
+3. Scalability:
+   The model is optimized for cloud platforms, ensuring efficient resource management and real-time detection capabilities.
+4. Comprehensive Detection:
+   The model is trained on diverse datasets, including CICDDoS2019, to detect various DDoS attack types like UDP flood, TCP SYN flood, and ICMP flood.
+
+   
+Impact: 
+
+The proposed solution significantly improves the efficiency of DDoS detection in cloud environments, minimizing downtime and ensuring robust protection against evolving cyber threats.
